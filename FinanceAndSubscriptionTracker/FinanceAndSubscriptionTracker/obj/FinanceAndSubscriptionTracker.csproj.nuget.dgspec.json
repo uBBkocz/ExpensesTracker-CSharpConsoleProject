@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kostr\\source\\repos\\FinanceAndSubscriptionTracker\\FinanceAndSubscriptionTracker\\FinanceAndSubscriptionTracker.csproj": {}
+    "C:\\Users\\kostr\\Source\\Repos\\ExpensesTracker-CSharpConsoleProject\\FinanceAndSubscriptionTracker\\FinanceAndSubscriptionTracker\\FinanceAndSubscriptionTracker.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kostr\\source\\repos\\FinanceAndSubscriptionTracker\\FinanceAndSubscriptionTracker\\FinanceAndSubscriptionTracker.csproj": {
+    "C:\\Users\\kostr\\Source\\Repos\\ExpensesTracker-CSharpConsoleProject\\FinanceAndSubscriptionTracker\\FinanceAndSubscriptionTracker\\FinanceAndSubscriptionTracker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kostr\\source\\repos\\FinanceAndSubscriptionTracker\\FinanceAndSubscriptionTracker\\FinanceAndSubscriptionTracker.csproj",
+        "projectUniqueName": "C:\\Users\\kostr\\Source\\Repos\\ExpensesTracker-CSharpConsoleProject\\FinanceAndSubscriptionTracker\\FinanceAndSubscriptionTracker\\FinanceAndSubscriptionTracker.csproj",
         "projectName": "FinanceAndSubscriptionTracker",
-        "projectPath": "C:\\Users\\kostr\\source\\repos\\FinanceAndSubscriptionTracker\\FinanceAndSubscriptionTracker\\FinanceAndSubscriptionTracker.csproj",
+        "projectPath": "C:\\Users\\kostr\\Source\\Repos\\ExpensesTracker-CSharpConsoleProject\\FinanceAndSubscriptionTracker\\FinanceAndSubscriptionTracker\\FinanceAndSubscriptionTracker.csproj",
         "packagesPath": "C:\\Users\\kostr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kostr\\source\\repos\\FinanceAndSubscriptionTracker\\FinanceAndSubscriptionTracker\\obj\\",
+        "outputPath": "C:\\Users\\kostr\\Source\\Repos\\ExpensesTracker-CSharpConsoleProject\\FinanceAndSubscriptionTracker\\FinanceAndSubscriptionTracker\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
