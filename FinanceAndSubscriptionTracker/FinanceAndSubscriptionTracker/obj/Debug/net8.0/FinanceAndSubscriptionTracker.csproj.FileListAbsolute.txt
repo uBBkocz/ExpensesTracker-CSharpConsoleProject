@@ -1,0 +1,14 @@
+C:\Users\kostr\source\repos\FinanceAndSubscriptionTracker\FinanceAndSubscriptionTracker\obj\Debug\net8.0\FinanceAndSubscriptionTracker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kostr\source\repos\FinanceAndSubscriptionTracker\FinanceAndSubscriptionTracker\obj\Debug\net8.0\FinanceAndSubscriptionTracker.AssemblyInfoInputs.cache
+C:\Users\kostr\source\repos\FinanceAndSubscriptionTracker\FinanceAndSubscriptionTracker\obj\Debug\net8.0\FinanceAndSubscriptionTracker.AssemblyInfo.cs
+C:\Users\kostr\source\repos\FinanceAndSubscriptionTracker\FinanceAndSubscriptionTracker\obj\Debug\net8.0\FinanceAndSubscriptionTracker.csproj.CoreCompileInputs.cache
+C:\Users\kostr\source\repos\FinanceAndSubscriptionTracker\FinanceAndSubscriptionTracker\bin\Debug\net8.0\FinanceAndSubscriptionTracker.exe
+C:\Users\kostr\source\repos\FinanceAndSubscriptionTracker\FinanceAndSubscriptionTracker\bin\Debug\net8.0\FinanceAndSubscriptionTracker.deps.json
+C:\Users\kostr\source\repos\FinanceAndSubscriptionTracker\FinanceAndSubscriptionTracker\bin\Debug\net8.0\FinanceAndSubscriptionTracker.runtimeconfig.json
+C:\Users\kostr\source\repos\FinanceAndSubscriptionTracker\FinanceAndSubscriptionTracker\bin\Debug\net8.0\FinanceAndSubscriptionTracker.dll
+C:\Users\kostr\source\repos\FinanceAndSubscriptionTracker\FinanceAndSubscriptionTracker\bin\Debug\net8.0\FinanceAndSubscriptionTracker.pdb
+C:\Users\kostr\source\repos\FinanceAndSubscriptionTracker\FinanceAndSubscriptionTracker\obj\Debug\net8.0\FinanceAndSubscriptionTracker.dll
+C:\Users\kostr\source\repos\FinanceAndSubscriptionTracker\FinanceAndSubscriptionTracker\obj\Debug\net8.0\refint\FinanceAndSubscriptionTracker.dll
+C:\Users\kostr\source\repos\FinanceAndSubscriptionTracker\FinanceAndSubscriptionTracker\obj\Debug\net8.0\FinanceAndSubscriptionTracker.pdb
+C:\Users\kostr\source\repos\FinanceAndSubscriptionTracker\FinanceAndSubscriptionTracker\obj\Debug\net8.0\FinanceAndSubscriptionTracker.genruntimeconfig.cache
+C:\Users\kostr\source\repos\FinanceAndSubscriptionTracker\FinanceAndSubscriptionTracker\obj\Debug\net8.0\ref\FinanceAndSubscriptionTracker.dll
