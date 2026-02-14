@@ -6,5 +6,21 @@
     "Currency": "EUR",
     "Category": "Entertainment",
     "PayPeriod": "Annualy"
+  },
+  {
+    "Name": "OnePlay",
+    "Price": 15,
+    "NextBillingDay": "2026-03-12T00:00:00+01:00",
+    "Currency": "EUR",
+    "Category": "Entertainment",
+    "PayPeriod": "Annualy"
+  },
+  {
+    "Name": "KFC",
+    "Price": 10,
+    "NextBillingDay": "2026-04-12T00:00:00+01:00",
+    "Currency": "EUR",
+    "Category": "Food",
+    "PayPeriod": "Annualy"
   }
 ]

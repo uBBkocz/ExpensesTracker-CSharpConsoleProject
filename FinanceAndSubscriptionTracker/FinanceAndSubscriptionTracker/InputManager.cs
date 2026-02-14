@@ -10,9 +10,8 @@ namespace FinanceAndSubscriptionTracker
     {
         public static void Menu()
         {
-            Console.Clear();
             Logger.LightBlue("Insert your choise: 1 - Add | 2 - Remove | 3 - Print Info About | " +
-                "4 - Print Info About All | 5 - Print Monthly Money Burn | 6 - EXIT");
+                "4 - Print Info About All | 5 - Print Monthly Money Burn | 6 - Print Based On Billing Time | 7 - EXIT");
             string input = Console.ReadLine();
 
             switch (input)
@@ -33,6 +32,9 @@ namespace FinanceAndSubscriptionTracker
                     SubscriptionManager.PrintTotalCost();
                     break;
                 case "6":
+                    SubscriptionManager.printBasedOnBillingTime();
+                    break;
+                case "7":
                     Logger.White("Exiting");
                     Environment.Exit(0);
                     break;

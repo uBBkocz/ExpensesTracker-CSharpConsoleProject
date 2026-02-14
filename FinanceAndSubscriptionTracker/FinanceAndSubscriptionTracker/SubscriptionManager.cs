@@ -111,9 +111,7 @@ namespace FinanceAndSubscriptionTracker
             Console.WriteLine("THE END");
 
             Subscription newSub = new Subscription(name, price, nextBillingTime, currency, category, payPeriod);
-            SaveManager.Data.Add(newSub);
-            SaveManager.SaveData();
-            InputManager.Menu();
+            ending();
         }
 
         public static void RemoveSubscription()
@@ -134,9 +132,7 @@ namespace FinanceAndSubscriptionTracker
                     SaveManager.SaveData();
                 }
             }
-            Logger.Green("\n\n Press anything to continue");
-            Console.ReadKey();
-            InputManager.Menu();
+            ending();
         }
 
         public static void PrintDataAboutSubscr()
@@ -159,9 +155,7 @@ namespace FinanceAndSubscriptionTracker
                     Console.WriteLine($"PayPeriod: {sub.PayPeriod}");
                 }
             }
-            Logger.Green("\n\n Press anything to continue");
-            Console.ReadKey();
-            InputManager.Menu();
+            ending();
         }
 
         public static void PrintAllInfo()
@@ -176,9 +170,7 @@ namespace FinanceAndSubscriptionTracker
                 Console.WriteLine($"PayPeriod: {sub.PayPeriod}");
                 Logger.Green("---------------------------------------------------");
             }
-            Logger.Green("\n\n Press anything to continue");
-            Console.ReadKey();
-            InputManager.Menu();
+            ending();
         }
         public static void PrintTotalCost()
         {
@@ -225,9 +217,28 @@ namespace FinanceAndSubscriptionTracker
                 
             }
             Console.WriteLine($"The total is {total}{input}");
-            Logger.Green("\n\n Press anything to continue");
+            ending();
+        }
+
+        public static void ending()
+        {
+            Logger.Green("\n\nPress anything to continue");
             Console.ReadKey();
             InputManager.Menu();
+        }
+
+        public static void printBasedOnBillingTime()
+        {
+            DateTime today = DateTime.Now;
+            
+            List<Subscription> subs = SaveManager.Data;
+            List<DateTime> payData = new List<DateTime>();
+            var nejblizsi = SaveManager.Data.OrderBy(d => Math.Abs((d.NextBillingDay - today).Ticks)).ToList();
+            foreach(var i in nejblizsi)
+            {  
+                Console.WriteLine($"{i.NextBillingDay} - {i.Price}{i.Currency} - {i.Name}");
+            }
+            ending();
         }
     }
 }
